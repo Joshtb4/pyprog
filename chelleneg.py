@@ -1,0 +1,1 @@
+print("your weekly pay is" {hours}, * {pay}, "enjoy your wages")

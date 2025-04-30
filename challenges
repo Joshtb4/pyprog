@@ -1,0 +1,22 @@
+def average_value():
+    a,b,c,d = user_input()
+    average = (a + b + c + d) /4
+    return average 
+
+
+def user_input():
+    a = float(input("number"))
+    b = float(input("number"))
+    c = float(input("number"))
+    d = float(input("number"))
+    return a,b,c,d
+
+
+#main
+
+print(average_value())
+
+
+
+
+ 
