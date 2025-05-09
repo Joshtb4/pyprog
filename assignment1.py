@@ -61,7 +61,7 @@ def rock_paper_scissors_game(player_1, player_2):
         "spock": ["scissors", "rock"]
     }
     player_1 = player_1.lower()
-    player_2 = player_2.lower()
+    player_2 = player_2.lower() 
 
     if player_1 not in winning_combinations or player_2 not in winning_combinations:
         return "not correct input"
